@@ -7,7 +7,7 @@
 
 ## Categories
 - [Javascript](https://github.com/hy0ni/TIL#Javascript)
-- [Django](https://github.com/hy0ni/TIL#jQuery)
+- [jQuery](https://github.com/hy0ni/TIL#jQuery)
 
 ---
 ### Javascript
