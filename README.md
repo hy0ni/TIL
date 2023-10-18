@@ -9,13 +9,11 @@
 - 파일명은 영어로 작성한다.
 
 ## Categories
-
-- [Javascript](https://github.com/hy0ni/TIL#Javascript)
+- [JavaScript](https://github.com/hy0ni/TIL#JavaScript)
 - [jQuery](https://github.com/hy0ni/TIL#jQuery)
 
 ---
-
-### Javascript
+### JavaScript
 
 - [코딩 컨벤션 가이드](./JavaScript/coding-conventions.md)
 - [올림 Math.ceil() / 내림 Math.floor() / 반올림 Math.round() / 소수점 반올림 tofixed(), toprecision()](./JavaScript/number-type-01.md)
