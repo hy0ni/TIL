@@ -7,7 +7,7 @@
 - 파일명은 영어로 작성한다.
 
 ## Categories
-- [Javascript](https://github.com/hy0ni/TIL#JavaScript)
+- [JavaScript](https://github.com/hy0ni/TIL#JavaScript)
 - [jQuery](https://github.com/hy0ni/TIL#jQuery)
 
 ---
