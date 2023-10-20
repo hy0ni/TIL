@@ -51,7 +51,6 @@ let import;
 ```
 
 **상수: 영문 대문자 스네이크 표기법(Snake case) 사용.** <br>
-**DOM요소를 담을 상수일 경우 변수명 앞에 달러($)표시**
 
 ```javascript
 SYMBOLIC_CONSTANTS;
@@ -66,6 +65,7 @@ class ConstructorName {
 ```
 
 **변수, 함수: 카멜 케이스 사용.**
+DOM요소를 담을 변수일 경우 변수명 앞에 달러($)표시
 
 ```javascript
 // 숫자, 문자, 불리언
