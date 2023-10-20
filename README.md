@@ -9,10 +9,12 @@
 - 파일명은 영어로 작성하며, 소문자와 하이픈(-)을 사용한다.
 
 ## Categories
+
 - [JavaScript](https://github.com/hy0ni/TIL#JavaScript)
 - [jQuery](https://github.com/hy0ni/TIL#jQuery)
 
 ---
+
 ### JavaScript
 
 - [코딩 컨벤션 가이드](./JavaScript/coding-conventions.md)
@@ -28,5 +30,12 @@
 - [모든 문자열 치환하기 replaceAll()](./JavaScript/string-type-08.md)
 - [문자열을 배열로 변환하기 split()](./JavaScript/string-type-09.md)
 - [특정 문자 위치 찾기 indexOf()](./JavaScript/string-type-10.md)
+- [문자열 합치기 (4가지 방법)](./JavaScript/string-type-11.md)
+- [문자열의 첫 글자만 대문자로 변환하기](./JavaScript/string-type-12.md)
+- [문자열의 첫 글자 삭제하기](./JavaScript/string-type-13.md)
+- [문자열 뒤에서 자르기 slice()](./JavaScript/string-type-14.md)
+- [문자열이 숫자인지 체크하기 isNaN()](./JavaScript/string-type-15.md)
+- [문자열 숫자로 변환하기 (3가지 방법)](./JavaScript/string-type-16.md)
+- [문자열 거꾸로 뒤집는 방법](./JavaScript/string-type-17.md)
 
 ### jQuery
