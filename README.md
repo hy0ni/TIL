@@ -39,5 +39,6 @@
 - [문자열 거꾸로 뒤집는 방법](./JavaScript/string-type-17.md)
 - [문자열 줄바꿈하기 (2가지 방법)](./JavaScript/string-type-18.md)
 - [콤마 제거 하기 (2가지 방법)](./JavaScript/string-type-19.md)
+- [문자열에서 마지막 콤마 제거하기](./JavaScript/string-type-20.md)
 
 ### jQuery
