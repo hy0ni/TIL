@@ -45,5 +45,7 @@
 - [연산자(operator)](./JavaScript/boolean-type-01.md)
 - [do..while 반복문](./JavaScript/boolean-type-02.md)
 - [객체의 모든 key, value 값 가져오기 for...in문](./JavaScript/boolean-type-03.md)
+- [for...of 반복문](./JavaScript/boolean-type-04.md)
+
 
 ### jQuery
