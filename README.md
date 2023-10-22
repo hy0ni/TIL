@@ -42,5 +42,6 @@
 - [문자열에서 마지막 콤마 제거하기](./JavaScript/string-type-20.md)
 - [데이터 타입 확인하기 typeof](./JavaScript/string-type-21.md)
 - [배열인지 확인하기 isArray()](./JavaScript/string-type-22.md)
+- [연산자(operator)](./JavaScript/boolean-type-01.md)
 
 ### jQuery
