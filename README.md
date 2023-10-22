@@ -43,5 +43,6 @@
 - [데이터 타입 확인하기 typeof](./JavaScript/string-type-21.md)
 - [배열인지 확인하기 isArray()](./JavaScript/string-type-22.md)
 - [연산자(operator)](./JavaScript/boolean-type-01.md)
+- [do..while 반복문](./JavaScript/boolean-type-02.md)
 
 ### jQuery
