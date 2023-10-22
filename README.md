@@ -40,5 +40,6 @@
 - [문자열 줄바꿈하기 (2가지 방법)](./JavaScript/string-type-18.md)
 - [콤마 제거 하기 (2가지 방법)](./JavaScript/string-type-19.md)
 - [문자열에서 마지막 콤마 제거하기](./JavaScript/string-type-20.md)
+- [데이터 타입 확인하기 typeof](./JavaScript/string-type-21.md)
 
 ### jQuery
