@@ -50,5 +50,6 @@
 - [배열 선언하기 (2가지 방법)](./JavaScript/array-type-01.md)
 - [배열의 길이 확인, 설정하기 length속성](./JavaScript/array-type-02.md)
 - [배열 앞, 뒤에 값 추가, 삭제하기 unshift(), shift(), push(), pop()](./JavaScript/array-type-03.md)
+- [배열 중간에 값 추가, 삭제하기 splice()](./JavaScript/array-type-04.md)
 
 ### jQuery
