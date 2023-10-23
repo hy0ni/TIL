@@ -54,5 +54,6 @@
 - [배열 합치기(3가지 방법)](./JavaScript/array-type-05.md)
 - [배열 자르기 slice()](./JavaScript/array-type-06.md)
 - [같은 값으로 배열 채우기 fill()](./JavaScript/array-type-07.md)
+- [배열 특정 값 위치(index) 찾기 indexOf(), lastIndexOf(), findIndex()](./JavaScript/array-type-08.md)
 
 ### jQuery
