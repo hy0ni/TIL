@@ -57,5 +57,6 @@
 - [배열 특정 값 위치(index) 찾기 indexOf(), lastIndexOf(), findIndex()](./JavaScript/array-type-08.md)
 - [배열에 특정 값 포함 여부 확인하기](./JavaScript/array-type-09.md)
 - [배열의 특정 값 찾기 find(), filter()](./JavaScript/array-type-10.md)
+- [배열에서 특정 값의 개수 구하기 for(), filter(), reduce()](./JavaScript/array-type-11.md)
 
 ### jQuery
