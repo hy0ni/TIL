@@ -47,5 +47,6 @@
 - [객체의 모든 key, value 값 가져오기 for...in문](./JavaScript/boolean-type-03.md)
 - [for...of 반복문](./JavaScript/boolean-type-04.md)
 - [for...of와 for...in의 차이점](./JavaScript/boolean-type-05.md)
+- [배열 선언하기 (2가지 방법)](./JavaScript/array-type-01.md)
 
 ### jQuery
