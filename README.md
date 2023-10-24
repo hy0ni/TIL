@@ -63,5 +63,6 @@
 - [배열의 합계, 평균 구하기 reduce()](./JavaScript/array-type-14.md)
 - [반복문 내에서 특정 값을 제외하고 실행하기 (continue 구현)](./JavaScript/array-type-15.md)
 - [배열 정렬하기 (오름차순, 내림차순, 문자열, 객체)](./JavaScript/array-type-16.md)
+- [배열 값 중복 체크, 제거하기 Set 객체](./JavaScript/array-type-17.md)
 
 ### jQuery
