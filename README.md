@@ -61,5 +61,6 @@
 - [배열에서 특정 값 삭제하기](./JavaScript/array-type-12.md)
 - [map() 함수로 변경된 새로운 배열 생성하기](./JavaScript/array-type-13.md)
 - [배열의 합계, 평균 구하기 reduce()](./JavaScript/array-type-14.md)
+- [반복문 내에서 특정 값을 제외하고 실행하기 (continue 구현)](./JavaScript/array-type-15.md)
 
 ### jQuery
