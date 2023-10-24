@@ -65,5 +65,6 @@
 - [배열 정렬하기 (오름차순, 내림차순, 문자열, 객체)](./JavaScript/array-type-16.md)
 - [배열 값 중복 체크, 제거하기 Set 객체](./JavaScript/array-type-17.md)
 - [배열 중복 값 개수 구하기 reduce()](./JavaScript/array-type-18.md)
+- [배열에서 빈값 제거하기](./JavaScript/array-type-19.md)
 
 ### jQuery
