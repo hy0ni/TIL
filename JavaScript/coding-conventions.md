@@ -498,8 +498,6 @@ const sumedValue = sum(1, 2);
 // Good
 (foo) => bar;
 
-(foo) => bar;
-
 (foo) => (bar) => baz;
 
 (foo) => bar();
