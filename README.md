@@ -68,5 +68,6 @@
 - [배열에서 빈값 제거하기](./JavaScript/array-type-19.md)
 - [빈 배열 체크하기](./JavaScript/array-type-20.md)
 - [배열을 문자열로 변환하기](./JavaScript/array-type-21.md)
+- [배열 거꾸로 뒤집기 reverse()](./JavaScript/array-type-22.md)
 
 ### jQuery
