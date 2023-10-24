@@ -70,5 +70,6 @@
 - [배열을 문자열로 변환하기](./JavaScript/array-type-21.md)
 - [배열 거꾸로 뒤집기 reverse()](./JavaScript/array-type-22.md)
 - [배열에서 최대값, 최소값 구하기](./JavaScript/array-type-23.md)
+- [배열 첫 번째 값, 마지막 값 가져오기](./JavaScript/array-type-24.md)
 
 ### jQuery
