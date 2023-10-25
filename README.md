@@ -78,5 +78,6 @@
 - [객체(Object) 속성(property) 개수 구하기](./JavaScript/object-type-04.md)
 - [객체를 JSON으로 변환하기 JSON.stringify()](./JavaScript/object-type-05.md)
 - [JSON 문자열을 객체로 변경하기 JSON.parse()](./JavaScript/object-type-06.md)
+- [빈 객체 체크하기 (2가지 방법)](./JavaScript/object-type-07.md)
 
 ### jQuery
