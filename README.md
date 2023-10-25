@@ -73,5 +73,6 @@
 - [배열 첫 번째 값, 마지막 값 가져오기](./JavaScript/array-type-24.md)
 - [함수 파라미터(매개변수) 기본값 설정하기](./JavaScript/function-type-01.md)
 - [객체 속성 읽기, 추가, 변경, 삭제](./JavaScript/object-type-01.md)
+- [객체에 특정 속성이 존재하는지 체크하기 (3가지 방법)](./JavaScript/object-type-02.md)
 
 ### jQuery
