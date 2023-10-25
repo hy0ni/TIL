@@ -1,4 +1,16 @@
-# 객체를 JSON으로 변환하기
+# 객체를 JSON으로 변환하기 JSON.stringify()
+
+- [객체를 JSON으로 변환하기 JSON.stringify()](#객체를-json으로-변환하기-jsonstringify)
+  - [JSON.stringify() 함수](#jsonstringify-함수)
+    - [JSON 형식의 특징](#json-형식의-특징)
+    - [JSON.stringify() 함수로 변환되지 않는 항목](#jsonstringify-함수로-변환되지-않는-항목)
+  - [특정 항목만 JSON으로 변환하기](#특정-항목만-json으로-변환하기)
+    - [replacer가 배열인 경우](#replacer가-배열인-경우)
+    - [replacer가 함수인 경우](#replacer가-함수인-경우)
+      - [JSON으로 변환 시 속성 값 변경하기 (함수 replacer)](#json으로-변환-시-속성-값-변경하기-함수-replacer)
+  - [들여쓰기(indent) 설정하기](#들여쓰기indent-설정하기)
+    - [숫자로 space 지정하기](#숫자로-space-지정하기)
+    - [문자로 space 지정하기](#문자로-space-지정하기)
 
 Javascript에서 사용하는 객체(Object)를 네트워크를 통해 전송하려면<br>
 객체를 그대로 서버로 전송할 수는 없기때문에<Br>
@@ -174,7 +186,7 @@ replacer 함수에서 특정 문자열이나 숫자값을 반환하면,<br>
 속성 'x'가 아닌 경우에는, 해당 속성의 value를 그대로 리턴해서,<br>
 원래의 속성값이 그대로 JSON으로 변환되도록 함.<br>
 
-#### 함수 replacer 예제 2. JSON으로 변환 시 속성 값 변경하기
+#### JSON으로 변환 시 속성 값 변경하기 (함수 replacer)
 
 ```javascript
 const obj = {
