@@ -74,5 +74,6 @@
 - [함수 파라미터(매개변수) 기본값 설정하기](./JavaScript/function-type-01.md)
 - [객체 속성 읽기, 추가, 변경, 삭제](./JavaScript/object-type-01.md)
 - [객체에 특정 속성이 존재하는지 체크하기 (3가지 방법)](./JavaScript/object-type-02.md)
+- [Set 객체를 배열(Array)로 변환하기 (3가지 방법)](./JavaScript/object-type-03.md)
 
 ### jQuery
