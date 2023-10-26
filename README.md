@@ -80,5 +80,6 @@
 - [JSON 문자열을 객체로 변경하기 JSON.parse()](./JavaScript/object-type-06.md)
 - [빈 객체 체크하기 (2가지 방법)](./JavaScript/object-type-07.md)
 - [객체 합치기 (3가지 방법)](./JavaScript/object-type-08.md)
+- [현재 날짜, 시간 구하기](./JavaScript/date-01.md)
 
 ### jQuery
