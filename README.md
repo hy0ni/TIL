@@ -82,5 +82,6 @@
 - [객체 합치기 (3가지 방법)](./JavaScript/object-type-08.md)
 - [현재 날짜, 시간 구하기](./JavaScript/date-01.md)
 - [Date 객체로 원하는 날짜, 시간 표현하기](./JavaScript/date-02.md)
+- [날짜 계산하기 (년/월/일 더하기, 빼기)](./JavaScript/date-03.md)
 
 ### jQuery
