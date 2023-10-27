@@ -87,5 +87,6 @@
 - [마지막 날짜(말일)/윤달/윤년 처리하기 Date()](./JavaScript/date-05.md)
 - [시간 계산하기 (시/분/초/ 더하기, 빼기)](./JavaScript/date-06.md)
 - [경과 시간 계산하기 (시간, 분, 초)](./JavaScript/date-07.md)
+- [문자열 날짜로 변환하기](./JavaScript/date-08.md)
 
 ### jQuery
