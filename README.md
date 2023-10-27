@@ -93,5 +93,6 @@
 - [절대값 구하기 Math.abs()](./JavaScript/bom-01.md)
 - [난수 생성하기 Random Number](./JavaScript/bom-02.md)
 - [현재 페이지 URL 가져오기](./JavaScript/bom-03.md)
+- [URL 파라미터 값 가져오기 (쿼리스트링 값)](./JavaScript/bom-04.md)
 
 ### jQuery
