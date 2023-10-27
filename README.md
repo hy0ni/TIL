@@ -85,5 +85,6 @@
 - [날짜 계산하기 (년/월/일 더하기, 빼기)](./JavaScript/date-03.md)
 - [해당 월의 마지막 날짜, 말일을 구하는 방법](./JavaScript/date-04.md)
 - [마지막 날짜(말일)/윤달/윤년 처리하기 Date()](./JavaScript/date-05.md)
+- [시간 계산하기 (시/분/초/ 더하기, 빼기)](./JavaScript/date-06.md)
 
 ### jQuery
