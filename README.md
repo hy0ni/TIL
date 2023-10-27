@@ -91,5 +91,6 @@
 - [두 날짜 사이 경과 일수 계산하기](./JavaScript/date-09.md)
 - [함수 실행 시간 측정하기](./JavaScript/date-10.md)
 - [절대값 구하기 Math.abs()](./JavaScript/bom-01.md)
+- [난수 생성하기 Random Number](./JavaScript/bom-02.md)
 
 ### jQuery
