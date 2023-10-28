@@ -97,5 +97,6 @@
 - [class 추가/변경/삭제/읽기 (className, classList)](./JavaScript/dom-01.md)
 - [innerText와 innerHTML의 차이점](./JavaScript/dom-02.md)
 - [innerHTML, innerText, textContent 차이점](./JavaScript/dom-03.md)
+- [element 생성, 삭제, 숨기기](./JavaScript/dom-04.md)
 
 ### jQuery
