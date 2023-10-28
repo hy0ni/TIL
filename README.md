@@ -100,5 +100,6 @@
 - [element 생성, 삭제, 숨기기](./JavaScript/dom-04.md)
 - [선택자, DOM 특정 요소(element) 찾기](./JavaScript/dom-05.md)
 - [마우스 이벤트(event) 종류](./JavaScript/event-01.md)
+- [키보드 이벤트(keyboard event) 종류](./JavaScript/event-02.md)
 
 ### jQuery
