@@ -98,5 +98,6 @@
 - [innerText와 innerHTML의 차이점](./JavaScript/dom-02.md)
 - [innerHTML, innerText, textContent 차이점](./JavaScript/dom-03.md)
 - [element 생성, 삭제, 숨기기](./JavaScript/dom-04.md)
+- [선택자, DOM 특정 요소(element) 찾기](./JavaScript/dom-05.md)
 
 ### jQuery
