@@ -99,5 +99,6 @@
 - [innerHTML, innerText, textContent 차이점](./JavaScript/dom-03.md)
 - [element 생성, 삭제, 숨기기](./JavaScript/dom-04.md)
 - [선택자, DOM 특정 요소(element) 찾기](./JavaScript/dom-05.md)
+- [마우스 이벤트(event) 종류](./JavaScript/event-01.md)
 
 ### jQuery
