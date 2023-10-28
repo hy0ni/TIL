@@ -96,5 +96,6 @@
 - [URL 파라미터 값 가져오기 (쿼리스트링 값)](./JavaScript/bom-04.md)
 - [class 추가/변경/삭제/읽기 (className, classList)](./JavaScript/dom-01.md)
 - [innerText와 innerHTML의 차이점](./JavaScript/dom-02.md)
+- [innerHTML, innerText, textContent 차이점](./JavaScript/dom-03.md)
 
 ### jQuery
