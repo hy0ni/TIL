@@ -103,5 +103,6 @@
 - [키보드 이벤트(keyboard event) 종류](./JavaScript/event-02.md)
 - [이벤트 추가, 제거하기](./JavaScript/event-03.md)
 - [마우스 클릭 좌표](./JavaScript/event-04.md)
+- [마우스 오른쪽 클릭 금지하기 (2가지 방법)](./JavaScript/event-05.md)
 
 ### jQuery
