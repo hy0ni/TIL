@@ -106,5 +106,6 @@
 - [마우스 오른쪽 클릭 금지하기 (2가지 방법)](./JavaScript/event-05.md)
 - [이벤트 한번만 실행되도록 하기](./JavaScript/event-06.md)
 - [버튼 이름 변경하기 (버튼 클릭)](./JavaScript/button-01.md)
+- [버튼 활성화/비활성화 하기](./JavaScript/button-02.md)
 
 ### jQuery
