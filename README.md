@@ -121,5 +121,6 @@
 - [체크박스에 체크된 항목 개수 구하기](./JavaScript/form-11.md)
 - [체크박스 전체 선택 / 전체 해제 구현하기](./JavaScript/form-12.md)
 - [체크박스 중, 하나라도 선택 해제될 경우 전체 선택 해제하기](./JavaScript/form-13.md)
+- [체크박스 하나만 선택되게 하기](./JavaScript/form-14.md)
 
 ### jQuery
