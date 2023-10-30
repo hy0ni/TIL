@@ -125,5 +125,6 @@
 - [input에서 입력 글자 수 제한하기](./JavaScript/form-15.md)
 - [input 박스에 영어만 입력되게 하기 (2가지 방법)](./JavaScript/form-16.md)
 - [select box에서 선택한 값, 텍스트 출력하기](./JavaScript/form-17.md)
+- [사용자 입력을 도와주는 datalist 알아보기](./JavaScript/form-18.md)
 
 ### jQuery
