@@ -112,5 +112,6 @@
 - [로컬 텍스트 파일 읽기 (다중 파일 선택)](./JavaScript/form-02.md)
 - [디렉토리 선택하여 파일 리스트 가져오기 (이름, 상대경로)](./JavaScript/form-03.md)
 - [input 입력받은 값을 화면에 출력하는 방법](./JavaScript/form-04.md)
+- [input 박스에 숫자만 입력되도록 설정하기 (4가지 방법)](./JavaScript/form-05.md)
 
 ### jQuery
