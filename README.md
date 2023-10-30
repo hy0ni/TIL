@@ -115,5 +115,6 @@
 - [input 박스에 숫자만 입력되도록 설정하기 (4가지 방법)](./JavaScript/form-05.md)
 - [Caps Lock 키 활성화 여부 체크하기](./JavaScript/form-06.md)
 - [라디오 버튼(radio) 값 가져와서 출력하기](./JavaScript/form-07.md)
+- [라디오 버튼의 텍스트 클릭하여, 항목 선택하기](./JavaScript/form-08.md)
 
 ### jQuery
