@@ -119,5 +119,6 @@
 - [라디오 버튼 클릭하여, 텍스트 값 출력하기](./JavaScript/form-09.md)
 - [체크박스(checkbox)에 선택 된 값 출력하기](./JavaScript/form-10.md)
 - [체크박스에 체크된 항목 개수 구하기](./JavaScript/form-11.md)
+- [체크박스 전체 선택 / 전체 해제 구현하기](./JavaScript/form-12.md)
 
 ### jQuery
