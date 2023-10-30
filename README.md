@@ -116,5 +116,6 @@
 - [Caps Lock 키 활성화 여부 체크하기](./JavaScript/form-06.md)
 - [라디오 버튼(radio) 값 가져와서 출력하기](./JavaScript/form-07.md)
 - [라디오 버튼의 텍스트 클릭하여, 항목 선택하기](./JavaScript/form-08.md)
+- [라디오 버튼 클릭하여, 텍스트 값 출력하기](./JavaScript/form-09.md)
 
 ### jQuery
