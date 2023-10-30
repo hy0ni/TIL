@@ -20,6 +20,6 @@ const firstValue = arr[arr.length - 1];
 console.log(firstValue); // 'three'
 ```
 
-arr.length(배열의 길이)는 3이지만<br>
-배열의 index는 0부터 시작하므로<br>
+arr.length(배열의 길이)는 3이지만  
+배열의 index는 0부터 시작하므로  
 마지막 index 값은 arr.length - 1, 즉 2가 된다.

@@ -31,5 +31,5 @@ clothing.length = 6;
 console.log(clothing); // ['shoes', 'shirts', 'socks', 'sweaters', empty × 2]
 ```
 
-length 속성으로 배열의 길이를 6으로 늘렸더니,<br>
+length 속성으로 배열의 길이를 6으로 늘렸더니,  
 기존 원소 4개에서 undefined가 2개 추가되어 총 6개의 길이를 갖게 된다.

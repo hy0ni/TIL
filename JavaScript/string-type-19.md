@@ -12,7 +12,7 @@ const number = numberStr.replace(",", "");
 console.log(number); // 1234,56
 ```
 
-`numberStr.replace(",", "")`<br>
+`numberStr.replace(",", "")`  
 `replace()` 함수는 2개의 파라미터를 입력받고,
 문자열에서 첫 번째 파라미터(",")를 두 번째 파라미터("")로 치환해 준다.
 
@@ -27,7 +27,7 @@ const number = numberStr.replace(/,/g, "");
 console.log(number); // 123456
 ```
 
-replace()의 첫 번째 파라미터로 일반 문자열 대신 정규식을 넣어준다.<br>
+replace()의 첫 번째 파라미터로 일반 문자열 대신 정규식을 넣어준다.  
 `/,/g`
 
 정규식은 '/'로 감싸서 작성한다.
@@ -47,11 +47,11 @@ console.log(number); // 123456
 
 `split()` 함수는 문자열을 첫 번째 파라미터(",")로 잘라서 배열로 리턴한다.
 
-`numberStr.split(",")`<br>
+`numberStr.split(",")`  
 ['12', '34', '56'] 리턴함.
 
 `join()` 함수는 배열의 모든 요소를 연결해 하나의 문자열로 만들어 준다.
 
-`numberStr.split(",").join("")`<br>
+`numberStr.split(",").join("")`  
 split() 함수가 리턴 한 값이 ['12', '34', '56']이니까
 이 배열의 문자열을 모두 연결하면, "123456"이 된다.

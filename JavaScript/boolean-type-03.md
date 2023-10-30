@@ -30,9 +30,9 @@ for (prop in rabbit) {
 
 `rabbit`이라는 객체를 생성하여 name과 age 속성을 정의.
 
-`for..in` 구문을 이용하여, rabbit 객체에서 prop 이라는 이름으로 속성을 하나씩 추출한다.<br>
+`for..in` 구문을 이용하여, rabbit 객체에서 prop 이라는 이름으로 속성을 하나씩 추출한다.  
 `for...in` 구문의 블록 안에서, prop이라는 이름으로 객체의 각각 속성명에 접근할 수 있다.
 
-`${prop} : ${rabbit[prop]}`<br>
-속성명(key) 출력 : prop은 객체의 속성명(key)을 출력.<br>
+`${prop} : ${rabbit[prop]}`  
+속성명(key) 출력 : prop은 객체의 속성명(key)을 출력.  
 속성값(value) 출력 : rabbit[속성명] 구문을 사용.

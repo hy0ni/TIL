@@ -24,11 +24,11 @@ const random = Math.random();
 
 ## 범위를 지정한 난수 생성하기
 
-Math.random() 함수는 0~1 사이의 부동소수점 난수를 생성하는데,<br>
-정수인 난수를 생성하기 위해서는<br>
+Math.random() 함수는 0~1 사이의 부동소수점 난수를 생성하는데,  
+정수인 난수를 생성하기 위해서는  
 Math.random() 함수와 Math.floor() 함수를 함께 사용해야 한다.
 
-`Math.floor() 함수`<br>
+`Math.floor() 함수`  
 소수점 1번째 자리를 버림하여 정수를 리턴하는 함수
 
 ```javascript
@@ -39,26 +39,26 @@ const random4 = Math.floor(Math.random() * 11);
 const random5 = Math.floor(Math.random() * 100);
 ```
 
-`Math.random()`<br>
+`Math.random()`  
 Math.random() 함수는 0~1 사이의 실수를 리턴(1 미포함)
 
-`Math.floor(Math.random())`<br>
+`Math.floor(Math.random())`  
 Math.floor() 함수는 소수점 첫 번째 자리 이후의 숫자를 버림하고, 정수를 리턴한다.
 Math.random() 함수는 0~0.99999...인 숫자를 리턴하기 때문에,
 Math.floor(Math.random()) 의 결과는 항상 0이 된다.
 
-`Math.floor(Math.random() * 10)`<br>
+`Math.floor(Math.random() * 10)`  
 Math.random() 함수의 결과는 0~0.99999...이고,
 Math.random() \* 10 의 결과는 0~9.99999...이다.
 
 Math.floor(Math.random() \* 10)의 결과는 0~9 범위의 정수다.
 
-`Math.floor(Math.random() * 11)`<br>
-10을 포함하는 랜덤한 정수를 얻고 싶다면<br>
+`Math.floor(Math.random() * 11)`  
+10을 포함하는 랜덤한 정수를 얻고 싶다면  
 Math.random() 함수의 결과에 11을 곱하고, 소수점 이하를 버림한다.
 
-`Math.floor(Math.random() * 100)`<br>
-0~99 범위의 랜덤한 정수를 얻고 싶다면,<br>
+`Math.floor(Math.random() * 100)`  
+0~99 범위의 랜덤한 정수를 얻고 싶다면,  
 Math.random() 함수의 결과에 100을 곱해주고, 소수점 이하를 버림한다.
 
 ## 난수 생성 함수 만들기 (범위 지정)
@@ -73,11 +73,11 @@ function rand(min, max) {
 console.log(rand(1, 5));
 ```
 
-최소값을 지정하고 싶을 때는<br>
-Math.random() \* (max - min + 1) 값을 계산하고, 소수점 이하를 버림 한다.<br>
+최소값을 지정하고 싶을 때는  
+Math.random() \* (max - min + 1) 값을 계산하고, 소수점 이하를 버림 한다.  
 그리고, min 값을 더해준다.
 
-min ~ max 값까지의 정수 랜덤 넘버를 만들어주는 함수<br>
+min ~ max 값까지의 정수 랜덤 넘버를 만들어주는 함수  
 1 ~ 5까지의 랜덤한 정수를 리턴한다.
 
 ### min <= number < max (max 값 불포함)

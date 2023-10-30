@@ -6,8 +6,8 @@ do {
 } while (조건문);
 ```
 
-do...while문은 조건문을 판단하기 전에 do 블록의 코드를 먼저 실행한다.<br>
-그리고, 조건문을 판단하여, 조건문의 결과가 true이면 do 블록의 코드를 다시 실행한다.<br>
+do...while문은 조건문을 판단하기 전에 do 블록의 코드를 먼저 실행한다.  
+그리고, 조건문을 판단하여, 조건문의 결과가 true이면 do 블록의 코드를 다시 실행한다.  
 이 과정을 반복.
 
 ```javascript
@@ -31,7 +31,7 @@ while (j < 1) {
 // output:
 ```
 
-`while문`은 처음 while문을 실행시켰을 때 while문의 결과가 false이면,<br>
+`while문`은 처음 while문을 실행시켰을 때 while문의 결과가 false이면,  
 while문 안의 코드블록은 한 번도 실행되지 않을 수 있다.
 
 `do...while문`은

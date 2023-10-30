@@ -22,10 +22,10 @@ for (let i of iterable) {
 ```
 
 모든 객체는 objCustom 프로퍼티를 상속받고,
-Array인 모든 객체는 arrCustom 프로퍼티를 상속받는다.<br>
+Array인 모든 객체는 arrCustom 프로퍼티를 상속받는다.  
 iterable 객체는 상속과 프로토타입 체인의 영향으로 objCustom과 arrCustom 프로퍼티 둘 다 상속받는다.
 
-`for...in`문은 임의의 순서로 iterable 객체의 열거 가능한 프로퍼티만 출력한다.<br>
+`for...in`문은 임의의 순서로 iterable 객체의 열거 가능한 프로퍼티만 출력한다.  
 Array 요소인 3, 5, 7이나 "hello"는 프로퍼티가 아니라 값이기 때문에 열거 가능한 프로퍼티가 아니므로 출력하지 않는다.
 
 `for...of`문은 iterable 객체가 iterable이 반복하도록 정의한 값을 반복하고 출력한다.

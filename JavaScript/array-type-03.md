@@ -22,8 +22,8 @@ console.log(count); // 3
 console.log(arr); // ['cherry', 'apple', 'banana']
 ```
 
-`unshift()` 메서드를 이용해 배열의 맨 앞에 "cherry"을 추가.<br>
-새로운 길이인 3을 리턴하고,<br>
+`unshift()` 메서드를 이용해 배열의 맨 앞에 "cherry"을 추가.  
+새로운 길이인 3을 리턴하고,  
 arr는 ['cherry', 'apple', 'banana']값을 가지게 된다.
 
 ```javascript
@@ -36,15 +36,13 @@ console.log(arr); // ['cherry', 'strawberry', 'apple', 'banana']
 
 `unshift()` 메서드를 이용해 배열의 맨 앞에 여러 개의 값을 추가할 수도 있다.
 
-<br>
-
 ## shift() 배열 앞에 값 삭제하기
 
 ```javascript
 arr.shift();
 ```
 
-`shift()` 메서드는 `배열에서 첫 번째 요소를 제거`하고, `제거된 요소를 반환`한다.<br>
+`shift()` 메서드는 `배열에서 첫 번째 요소를 제거`하고, `제거된 요소를 반환`한다.  
 이 메서드는 배열의 길이를 변하게 한다.
 
 ```javascript
@@ -55,8 +53,8 @@ console.log(arr); // ['banana', 'cherry', 'strawberry']
 console.log(removed); // 'apple'
 ```
 
-`const removed = arr.shift();`<br>
-첫 번째 요소를 삭제하여 ['banana', 'cherry', 'strawberry'] 값이 남게 되었고,<br>
+`const removed = arr.shift();`  
+첫 번째 요소를 삭제하여 ['banana', 'cherry', 'strawberry'] 값이 남게 되었고,  
 삭제한 요소인 'apple'을 반환함.
 
 ```javascript
@@ -68,11 +66,9 @@ console.log(arr); // ['cherry', 'strawberry']
 console.log(removed); // 'banana'
 ```
 
-`removed = arr.shift();`<br>
-배열의 첫 번째 요소를 한 번 더 삭제하여,<br>
+`removed = arr.shift();`  
+배열의 첫 번째 요소를 한 번 더 삭제하여,  
 arr에는 ['cherry', 'strawberry']가 남게 되고 'banana'를 반환함.
-
-<br>
 
 ## push() 배열의 끝에 값 추가하기
 
@@ -90,8 +86,8 @@ console.log(animals); // ["pigs", "goats", "sheep", "cows"]
 console.log(count); // 4
 ```
 
-베열의 맨 끝에 "cows" 요소를 추가함.<br>
-push() 메서드는 새로운 배열의 길이인 4를 리턴하고,<br>
+베열의 맨 끝에 "cows" 요소를 추가함.  
+push() 메서드는 새로운 배열의 길이인 4를 리턴하고,  
 ['pigs', 'goats', 'sheep', 'cows'] 값을 가지게 됨.
 
 ```javascript
@@ -103,8 +99,6 @@ console.log(count); // 6
 ```
 
 파라미터를 여러 개 전달하여, 배열의 맨 끝에 여러 개의 요소를 추가할 수도 있다.
-
-<br>
 
 ## pop() 배열의 끝에 값 삭제하기
 
@@ -122,6 +116,6 @@ console.log(animals); // ["pigs", "goats"]
 console.log(count); // "sheep"
 ```
 
-배열에서 가장 마지막 요소를 삭제함.<br>
-pop() 메서드는 삭제한 요소인 "sheep"를 리턴하고,<br>
+배열에서 가장 마지막 요소를 삭제함.  
+pop() 메서드는 삭제한 요소인 "sheep"를 리턴하고,  
 animals 배열에는 ["pigs", "goats"]만 남게된다.

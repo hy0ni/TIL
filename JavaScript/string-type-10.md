@@ -52,11 +52,11 @@ while (true) {
 }
 ```
 
-`let foundPos = str.indexOf("apple", pos)`<br>
+`let foundPos = str.indexOf("apple", pos)`  
 while 반복문 안에서 searchValue("apple")를 찾은 후
 
-`pos = foundPos + 1`<br>
+`pos = foundPos + 1`  
 fromIndex 값을 foundPos의 다음 index값으로 변경해 준다.
 
-`if (foundPos == -1) break;`<br>
+`if (foundPos == -1) break;`  
 더이상 찾는 문자열이 없다면 종료.

@@ -34,19 +34,19 @@ if (arr.length !== set.size) {
 }
 ```
 
-`const set = new Set(arr);`<br>
+`const set = new Set(arr);`  
 arr 배열을 new Set의 인자로 전달하여 set 객체를 생성.
 
-Set 객체는 중복된 값을 허용하지 않기 때문에,<br>
-set 객체는 중복된 값을 제거한 유일한 값들만 가지게 되어<br>
+Set 객체는 중복된 값을 허용하지 않기 때문에,  
+set 객체는 중복된 값을 제거한 유일한 값들만 가지게 되어  
 set 객체의 크기는 3이 된다.
 
 `if(arr.length !== set.size){ `
 ` console.log("중복되는 요소가 없다.");`
-`}`<br>
-Set은 중복을 허용하지 않는다는 점을 활용해<br>
-원본 배열인 arr의 길이와<br>
-원본 배열을 가지고 생성한 set의 크기를 비교하여<br>
+`}`  
+Set은 중복을 허용하지 않는다는 점을 활용해  
+원본 배열인 arr의 길이와  
+원본 배열을 가지고 생성한 set의 크기를 비교하여  
 중복이 존재하는지 확인할 수 있다.
 
 ### 중복값 제거 후 객체를 배열로 변환하기
@@ -60,12 +60,12 @@ console.log(set); // {'a', 'b', 'c'}
 console.log(setArr); // ['a', 'b', 'c']
 ```
 
-중복 값이 있는 arr 배열을<br>
-`const set = new Set(arr)`<br>
+중복 값이 있는 arr 배열을  
+`const set = new Set(arr)`  
 Set 객체로 만들어 중복을 제거한 후,
 
-`const setArr = [...set]`<br>
+`const setArr = [...set]`  
 Spread Operator(전개 연산자)를 사용하여 Set 객체를 다시 배열로 변환한다.
 
-Set 객체를 배열로 변환할 때, Spread Operator 대신<br>
+Set 객체를 배열로 변환할 때, Spread Operator 대신  
 Array.from() 또는 forEach() 문을 사용할 수도 있다.

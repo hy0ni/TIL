@@ -30,18 +30,18 @@ console.log(isEmptyObj(obj2)); // false
 console.log(isEmptyObj(obj3)); // false
 ```
 
-`obj.constructor === Object`<br>
+`obj.constructor === Object`  
 데이터가 객체인지 체크하기 위해 constructor를 확인한다.
 
-`Object.keys(obj).length === 0`<br>
-Object.keys() 함수는 파라미터로 입력받은 객체의 key 목록을 배열로 리턴한다.<br>
+`Object.keys(obj).length === 0`  
+Object.keys() 함수는 파라미터로 입력받은 객체의 key 목록을 배열로 리턴한다.  
 만약 Object.keys()를 호출한 결과 배열의 길이가 0이면 비어있는 객체임을 확인할 수 있다.
 
 ## lodash library 사용하기
 
 lodash 라이브러리를 이용할 수도 있다.
 
-`lodash 라이브러리를 사용하기 위해서는 lodash 라이브러리를 다운로드하거나, CND으로 참조해야 한다.`<br>
+`lodash 라이브러리를 사용하기 위해서는 lodash 라이브러리를 다운로드하거나, CND으로 참조해야 한다.`  
 👉 [lodash library](https://lodash.com/)
 
 ```javascript
@@ -61,7 +61,7 @@ console.log(isEmptyObj(obj2)); // false
 console.log(isEmptyObj(obj3)); // false
 ```
 
-`_.isEmpty()`<br>
+`_.isEmpty()`  
 lodash의 isEmpty() 함수는
 object, collection, map, set이 비어있는지를 체크해 주는 함수다.
 

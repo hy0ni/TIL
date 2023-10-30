@@ -30,8 +30,8 @@ arr.forEach((element) => {
 });
 ```
 
-forEach 문은 배열의 모든 값을 순회하기 때문에, 특정 값의 처리를 건너 뛰고 싶으면<br>
-continue 대신에 return 문을 사용할 수 있다.<br>
+forEach 문은 배열의 모든 값을 순회하기 때문에, 특정 값의 처리를 건너 뛰고 싶으면  
+continue 대신에 return 문을 사용할 수 있다.  
 해당 값의 처리를 건너 뛰고, 배열의 다음 값을 처리한다.
 
 ## filter 사용하기
@@ -39,11 +39,9 @@ continue 대신에 return 문을 사용할 수 있다.<br>
 ```javascript
 const arr = [1, 2, 3];
 
-arr
-  .filter((element) => element !== 1)
-  .forEach((element) => console.log(element));
+arr.filter((element) => element !== 1).forEach((element) => console.log(element));
 ```
 
-filter() 함수는 특정 조건에 부합하는 배열의 모든 값을 배열 형태로 리턴한다.<br>
-'값이 1이 아닌 element'만으로 새로운 배열을 만든다.(배열 [2, 3]을 리턴)<br>
+filter() 함수는 특정 조건에 부합하는 배열의 모든 값을 배열 형태로 리턴한다.  
+'값이 1이 아닌 element'만으로 새로운 배열을 만든다.(배열 [2, 3]을 리턴)  
 forEach() 함수는 이 '배열 [2, 3]'을 처리하게 된다.

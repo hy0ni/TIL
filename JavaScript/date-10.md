@@ -17,15 +17,15 @@ let end = new Date(); // 종료
 console.log(end - start); // 경과시간(밀리초)
 ```
 
-`let start = new Date()`<br>
+`let start = new Date()`  
 실행 시간을 측정할 함수 시작 전의 현재 시간을 측정한다.
 
-`test()`<br>
+`test()`  
 실행 시간을 측정할 함수를 실행한다.
 
-`let end = new Date()`<br>
+`let end = new Date()`  
 함수가 종료된 시점의 현재 시간을 end에 저장한다.
 
-`end - start`<br>
-'함수가 종료된 시점의 시간 - 함수가 시작되기 직전 시점의 시간'을 계산하면<br>
+`end - start`  
+'함수가 종료된 시점의 시간 - 함수가 시작되기 직전 시점의 시간'을 계산하면  
 두 시간 사이의 경과시간을 밀리초 단위로 반환한다.

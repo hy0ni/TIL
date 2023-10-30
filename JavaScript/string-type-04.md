@@ -24,7 +24,7 @@ console.log(str.charAt(str.length - 1)); // "d"
 
 ## substring()
 
-`substring()` 함수는 문자열의 시작 index부터 끝 index까지 문자열의 일부를 반환한다.<br>
+`substring()` 함수는 문자열의 시작 index부터 끝 index까지 문자열의 일부를 반환한다.  
 끝 index가 제공되지 않은 경우 문자열의 끝까지 반환한다.
 
 ```javascript
@@ -38,7 +38,7 @@ console.log(str.substring(2)); // "llo World"
 
 `slice()` 함수는 원본 문자열을 수정하지 않고 이 문자열의 섹션을 추출해 새 문자열로 반환한다.
 
-`substring()` 함수와 동일하게 문자열의 시작 index부터 끝 index까지 문자열의 일부를 반환한다.<br>
+`substring()` 함수와 동일하게 문자열의 시작 index부터 끝 index까지 문자열의 일부를 반환한다.  
 끝 index가 제공되지 않은 경우 문자열의 끝까지 반환한다.
 
 ```javascript

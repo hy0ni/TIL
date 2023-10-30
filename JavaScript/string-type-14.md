@@ -6,7 +6,7 @@
 str.slice(beginIndex[, endIndex])
 ```
 
-`slice()` 함수는 어떤 배열의 beginIndex부터 endIndex까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다. 원본 배열은 바뀌지 않음. <br>
+`slice()` 함수는 어떤 배열의 beginIndex부터 endIndex까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환한다. 원본 배열은 바뀌지 않음.  
 index는 0부터 시작.
 
 ```javascript
@@ -29,6 +29,6 @@ slice() 함수는 문자열의 마지막 글자까지 문자열을 잘라 리턴
 str의 문자열의 길이는 5이고, beginIndex 값은 -2이므로,
 str.slice(5+(-2),5), 즉 str.slice(3, 5)로 계산되어 문자열의 마지막 2글자를 리턴한다.
 
-`str.slice(-2)`<br>
-`str.slice(-2, str.length)`<br>
+`str.slice(-2)`  
+`str.slice(-2, str.length)`  
 같은 결과값을 낸다.

@@ -16,13 +16,13 @@ arr.indexOf(searchElement[, fromIndex])
 arr.lastIndexOf(searchElement[, fromIndex])
 ```
 
-`indexOf()`<br>
+`indexOf()`  
 배열 안에서 찾으려는 값(searchElement)과 정확하게 일치(===)하는'첫번째' element의 index를 리턴.
 
-`lastIndexOf()`<br>
+`lastIndexOf()`  
 배열 안에서 찾으려는 값(searchElement)과 정확하게 일치(===)하는 '마지막' element의 index를 리턴.
 
-두 함수 모두 찾으려는 값이 배열에 없으면 -1을 리턴한다.<br>
+두 함수 모두 찾으려는 값이 배열에 없으면 -1을 리턴한다.  
 이 특징을 이용하여 특정 값이 배열에 포함되어 있는지 확인할 수 있다.
 
 ```javascript
@@ -36,7 +36,7 @@ if (arr.indexOf(3) < 0) {
 console.log(isElementYn); // false
 ```
 
-숫자 3이 arr 배열에 포함되어 있는지 체크.<br>
+숫자 3이 arr 배열에 포함되어 있는지 체크.  
 arr.indexOf(3)은 찾을 수 없으므로 -1 리턴.
 
 ## findIndex()
@@ -58,8 +58,8 @@ console.log(arr.findIndex(findNumberTwo)); // 1
 console.log(arr.findIndex(findNumberTwo) > -1); // true
 ```
 
-arr.findIndex()에 전달된 callback 함수는<br>
-배열의 각각의 element를 받아서 그 값이 2인지 확인하고,<br>
+arr.findIndex()에 전달된 callback 함수는  
+배열의 각각의 element를 받아서 그 값이 2인지 확인하고,  
 그 값이 2이면 true를 리턴한다.
 
 배열에 찾으려는 값이 있다면
@@ -96,21 +96,21 @@ console.log(arr.includes(3)); // false
 console.log(arr.includes(1, 2)); // false
 ```
 
-`arr.includes(1)`<br>
+`arr.includes(1)`  
 arr 배열에 1이 있으므로 true 리턴.
 
-`arr.includes(3)`<br>
+`arr.includes(3)`  
 arr 배열에 3이 없으므로 fasle 리턴.
 
-`arr.includes(1, 2)`<br>
-두 번째 파라미터인 fromIndex에 배열의 길이보다 크거나 같은 값이 들어가면,<br>
+`arr.includes(1, 2)`  
+두 번째 파라미터인 fromIndex에 배열의 길이보다 크거나 같은 값이 들어가면,  
 무조건 false를 리턴한다.
 
 arr배열의 길이는 2인데, fromIndex 자리에 2가 들어갔으므로 false가 리턴된다.
 
-`arr.includes(2, -1)`<br>
-fromIndex 자리에 음수가 들어가면, 실제 시작 index는 '배열의 길이 + fromIndex'로 계산된다.<br>
-배열의 길이는 2이고, fromIndex는 -1이므로,<br>
+`arr.includes(2, -1)`  
+fromIndex 자리에 음수가 들어가면, 실제 시작 index는 '배열의 길이 + fromIndex'로 계산된다.  
+배열의 길이는 2이고, fromIndex는 -1이므로,  
 실제 검색을 시작하는 index는 1이 된다. (2 + (-1))
 
 arr[1]에 2가 있으므로, true가 리턴 된다.
@@ -121,9 +121,9 @@ arr[1]에 2가 있으므로, true가 리턴 된다.
 arr.some(callback(element[, index[, array]])[, thisArg])
 ```
 
-`some()` 함수는 배열에서 값을 찾는 조건을 callback 함수로 전달하고,<br>
-배열에 조건에 맞는 값이 있는지 여부(boolean)를 리턴한다.<br>
-조건에 맞는 값이 있으면 true, 조건에 맞는 값이 없으면 false를 리턴한다.<br>
+`some()` 함수는 배열에서 값을 찾는 조건을 callback 함수로 전달하고,  
+배열에 조건에 맞는 값이 있는지 여부(boolean)를 리턴한다.  
+조건에 맞는 값이 있으면 true, 조건에 맞는 값이 없으면 false를 리턴한다.  
 `some()` 함수 배열을 변경하지 않는다.
 
 ```javascript

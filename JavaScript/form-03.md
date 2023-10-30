@@ -11,7 +11,7 @@ input 태그의 속성으로 'webkitdirectory' 속성을 지정해 준다.
 <input type="file" webkitdirectory />
 ```
 
-webkitdirectory 속성을 지정하면 사용자는 파일이 아닌 디렉토리를 선택할 수 있게 된다.<br>
+webkitdirectory 속성을 지정하면 사용자는 파일이 아닌 디렉토리를 선택할 수 있게 된다.  
 ( 단, 이 속성은 chrome 및 microsoft edge 등 대부분의 많은 브라우저들에서 작동하지만, 표준은 아니기 때문에 Internet Explorer에서는 작동하지 않음. )
 
 ## 디렉토리 안의 파일 정보 읽어오기

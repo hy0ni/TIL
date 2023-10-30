@@ -16,5 +16,5 @@ Array.isArray(undefined); // false
 Array.isArray(null); // false
 ```
 
-파라미터로 입력받은 객체가 배열이면 true,<br>
+파라미터로 입력받은 객체가 배열이면 true,  
 배열이 아니면 false를 리턴함.

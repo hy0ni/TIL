@@ -29,8 +29,8 @@ console.log(words.length); // 3
 
 `str.split(" ")` 문자열을 공백으로 분리하고 분리된 문자들을 배열로 변환한다.
 
-`Array.isArray(words)` <br>
+`Array.isArray(words)`  
 배열인지 판단하기 true 반환함.
 
-`words.length`<br>
+`words.length`  
 구분자로 문자열을 분리한 후 배열로 변환하였기 때문에 길이(length)는 3이 된다.

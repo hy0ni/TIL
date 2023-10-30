@@ -24,17 +24,17 @@
 - splice() 함수는 start index부터 deleteCount만큼의 원소를 삭제하고,
   뒤 이어 오는 items를 start index 위치에 추가한다.
 
-**start**<br>
+**start**  
 변경을 시작할 배열의 시작 index
 
-**deleteCount**<br>
-start index부터 deleteCount 갯수만큼 원소를 삭제한다.<br>
+**deleteCount**  
+start index부터 deleteCount 갯수만큼 원소를 삭제한다.  
 deleteCount가 입력되지 않으면, start index 이후의 모든 값이 삭제됨.
 
-**items**<br>
+**items**  
 배열의 start index에 item들을 추가한다.
 
-**리턴값**<br>
+**리턴값**  
 삭제된 원소(element)의 배열을 리턴.
 
 ---
@@ -52,7 +52,7 @@ arr.splice(0, 0, "a", "b");
 console.log(arr); // [ 'a', 'b', 1, 2, 3]
 ```
 
-`arr.splice(0, 0, "a", "b");`<br>
+`arr.splice(0, 0, "a", "b");`  
 arr.splice.(0번째 index, 삭제할 요소 0개, 추가할 값 "a", "b")
 
 ---
@@ -66,7 +66,7 @@ arr.splice(1, 0, "a", "b");
 console.log(arr); // [1, 'a', 'b', 2, 3]
 ```
 
-`arr.splice(1, 0, "a", "b");`<br>
+`arr.splice(1, 0, "a", "b");`  
 arr.splice(1번째 index, 삭제할 요소 0개, 추가할 값 "a", "b")
 
 ---
@@ -80,7 +80,7 @@ arr.splice(arr.length, 0, "4", "5");
 console.log(arr); //  [1, 2, 3, '4', '5']
 ```
 
-`arr.splice(arr.length, 0, "4", "5");`<br>
+`arr.splice(arr.length, 0, "4", "5");`  
 arr.splice.(arr의길이(3)index, 삭제할 요소 0개, 추가할 값 "4", "5")
 
 ---
@@ -100,7 +100,7 @@ arr.splice(0, 2);
 console.log(arr); // [1, 2, 3]
 ```
 
-`arr.splice(0, 2);`<br>
+`arr.splice(0, 2);`  
 arr.splice(0번째 index, 요소 2개 삭제)
 
 ---
@@ -114,7 +114,7 @@ arr.splice(1, 2);
 console.log(arr); // [1, 2, 3]
 ```
 
-`arr.splice(1, 2);`<br>
+`arr.splice(1, 2);`  
 arr.splice(1번째 index, 요소 2개 삭제)
 
 ---
@@ -128,7 +128,7 @@ arr.splice(arr.length - 1, 1);
 console.log(arr); // [1, 2, 3]
 ```
 
-`arr.splice(arr.length - 1, 1);`<br>
+`arr.splice(arr.length - 1, 1);`  
 arr.splice(arr길이 끝, 요소 1개 삭제)
 
 ---
@@ -149,12 +149,12 @@ arr2.splice(1);
 console.log(arr2); // [1]
 ```
 
-`arr1.splice(0);`<br>
-배열 전체의 요소를 삭제하고 싶다면,<br>
+`arr1.splice(0);`  
+배열 전체의 요소를 삭제하고 싶다면,  
 첫 번째 파라미터(start index)를 0으로 지정하고, 나머지 파라미터는 입력하지 않는다.
 
-`arr2.splice(1);`<br>
-특정 index 이후의 요소를 삭제하고 싶다면,<br>
+`arr2.splice(1);`  
+특정 index 이후의 요소를 삭제하고 싶다면,  
 첫 번째 파라미터(start index)를 삭제할 특정 index를 지정하고, 나머지 파라미터는 입력하지 않는다.
 
 ---
@@ -168,7 +168,7 @@ arr.splice(1, 1, "b", "c");
 console.log(arr); //  [1, 'b', 'c', 3]
 ```
 
-`arr.splice(1, 1, "b", "c");`<br>
+`arr.splice(1, 1, "b", "c");`  
 index 1에서부터 1개의 요소(2)를 삭제하고, index 1에 'b', 'c' 원소 2개를 추가함.
 
 ---
@@ -182,5 +182,5 @@ arr.splice(1, 1, "b");
 console.log(arr); // [1, 'b', 3]
 ```
 
-`arr.splice(1, 1, "b");`<br>
+`arr.splice(1, 1, "b");`  
 index 1에서부터 1개의 요소(2)를 삭제하고, 그 위치에 새로운 값('b')을 추가함.

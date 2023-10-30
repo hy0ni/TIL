@@ -20,6 +20,6 @@ console.log(typeof function () {}); // function
 console.log(typeof 11n); // bigint
 ```
 
-**`typeof [1, 2, 3]`**<br>
-배열은 object를 리턴한다.<br>
-배열은 object의 특수한 한 형태이기 때문에<br> `객체가 배열인지 확인하기 위해서는 isArray() 함수`를 사용해야 한다.
+**`typeof [1, 2, 3]`**  
+배열은 object를 리턴한다.  
+배열은 object의 특수한 한 형태이기 때문에 `객체가 배열인지 확인하기 위해서는 isArray() 함수`를 사용해야 한다.

@@ -24,11 +24,11 @@ console.log(isEmptyArr(str)); // false
 
 객체가 배열인지 확인하기 위해 `Array.isArray()` 함수를 사용한다.
 
-일반적으로, javascript에서 데이터 타입을 확인하기 위해서는 typeof를 사용하지만<br>
+일반적으로, javascript에서 데이터 타입을 확인하기 위해서는 typeof를 사용하지만  
 typeof를 사용하게 되면 배열은 'object'를 리턴한다.
 
-데이터 타입 확인하기: typeof<br>
+데이터 타입 확인하기: typeof  
 배열인지 확인하기: isArray()
 
-`arr.length === 0`<br>
+`arr.length === 0`  
 배열이 비어있는지 확인하기 위해 arr.length의 값을 체크한다.

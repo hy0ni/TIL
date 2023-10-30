@@ -20,7 +20,7 @@ console.log(str); // apple, banana, orange
 console.log(replaced_str); // apple, tomato, orange
 ```
 
-`replace()` 함수는 원본 문자열을 변경하지 않고,<br>
+`replace()` 함수는 원본 문자열을 변경하지 않고,  
 'banana'가 'tomato'로 치환된 문자열을 리턴한다.
 
 ## replace() 함수는 첫 번째로 찾은 문자열만 치환해 준다.
@@ -47,5 +47,5 @@ console.log(str); // apple, Banana, orange
 console.log(replaced_str); // apple, Banana, orange
 ```
 
-원본 문자열은 'banana'를 포함하고 있지 않으므로,<br>
+원본 문자열은 'banana'를 포함하고 있지 않으므로,  
 'banana'를 찾아서 변경하려 시도해도 변경되지 않는다.

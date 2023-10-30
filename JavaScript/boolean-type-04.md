@@ -10,7 +10,7 @@ for (variable of iterable) {
 }
 ```
 
-`object 는 iterable 객체`이다. (배열 또는 Map, Set, String 등)<br>
+`object 는 iterable 객체`이다. (배열 또는 Map, Set, String 등)  
 `variable은 iterable 객체에서 하나씩 뽑아온 값`이다.
 
 ### Array에 대해 반복

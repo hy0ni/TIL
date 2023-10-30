@@ -21,7 +21,7 @@ console.log(elements.join("")); // "FireAirWater"
 console.log(elements.join("-")); // "Fire-Air-Water"
 ```
 
-`join()` 함수는 파라미터로 값이 아무것도 전달되지 않으면,<br>
+`join()` 함수는 파라미터로 값이 아무것도 전달되지 않으면,  
 배열의 각 값들은 ','를 구분자로 연결된다.
 
 ## toString() 함수 사용하기
