@@ -126,5 +126,6 @@
 - [input 박스에 영어만 입력되게 하기 (2가지 방법)](./JavaScript/form-16.md)
 - [select box에서 선택한 값, 텍스트 출력하기](./JavaScript/form-17.md)
 - [사용자 입력을 도와주는 datalist 알아보기](./JavaScript/form-18.md)
+- [숫자 3자리(천 단위)마다 콤마 찍기 (2가지 방법)](./JavaScript/string-type-23.md)
 
 ### jQuery
