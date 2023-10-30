@@ -109,5 +109,6 @@
 - [버튼 활성화/비활성화 하기](./JavaScript/button-02.md)
 - [location.href 와 location.replace 차이점](./JavaScript/web-01.md)
 - [input type='file' 속성 알아보기](./JavaScript/form-01.md)
+- [로컬 텍스트 파일 읽기 (다중 파일 선택)](./JavaScript/form-02.md)
 
 ### jQuery
