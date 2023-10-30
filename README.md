@@ -123,5 +123,6 @@
 - [체크박스 중, 하나라도 선택 해제될 경우 전체 선택 해제하기](./JavaScript/form-13.md)
 - [체크박스 하나만 선택되게 하기](./JavaScript/form-14.md)
 - [input에서 입력 글자 수 제한하기](./JavaScript/form-15.md)
+- [input 박스에 영어만 입력되게 하기 (2가지 방법)](./JavaScript/form-16.md)
 
 ### jQuery
