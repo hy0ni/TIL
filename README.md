@@ -11,6 +11,7 @@
 ## Categories
 
 - [JavaScript](https://github.com/hy0ni/TIL#JavaScript)
+- [HTML](https://github.com/hy0ni/TIL#HTML)
 - [jQuery](https://github.com/hy0ni/TIL#jQuery)
 
 ---
@@ -127,5 +128,9 @@
 - [select box에서 선택한 값, 텍스트 출력하기](./JavaScript/form-17.md)
 - [사용자 입력을 도와주는 datalist 알아보기](./JavaScript/form-18.md)
 - [숫자 3자리(천 단위)마다 콤마 찍기 (2가지 방법)](./JavaScript/string-type-23.md)
+
+### HTML
+
+- [기본 테이블(표, Table) 그리기](./HTML/table-01.md)
 
 ### jQuery
