@@ -132,5 +132,6 @@
 ### HTML
 
 - [기본 테이블(표, Table) 그리기](./HTML/table-01.md)
+- [테이블 제목 지정하기 caption tag](./HTML/table-02.md)
 
 ### jQuery
