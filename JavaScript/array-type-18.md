@@ -12,9 +12,9 @@ reduce() 함수는, 배열의 값을 순회하면서 배열의 값을 특정 형
 ```javascript
 const arr = ["a", "b", "a", "b", "c"];
 
-const result = arr.reduce((accu, curr) => {
-  accu[curr] = (accu[curr] || 0) + 1;
-  return accu;
+const result = arr.reduce((acc, curr) => {
+  acc[curr] = (acc[curr] || 0) + 1;
+  return acc;
 }, {});
 
 console.log(JSON.stringify(result)); // {"a":2,"b":2,"c":1}
