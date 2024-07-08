@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vanilla JS로 counter button 구현하기</title>
+</head>
+
+<body>
+  <h3>Total clicks: 0</h3>
+  <button id="btn">Click me</button>
+  <script>
+    let counter = 0;
+    const button = document.querySelector('#btn');
+    const h3 = document.querySelector('h3');
+    function handleClick() {
+      counter += 1
+      h3.innerText = `Total clicks: ${counter}`;
+    }
+    button.addEventListener('click', handleClick)
+  </script>
+</body>
+
+</html>
