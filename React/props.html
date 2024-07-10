@@ -13,27 +13,30 @@
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script type="text/babel">
-    function Btn({ btnName, bool }) {
-      console.log(btnName, bool)
+    function Btn({ btnName, changeValue }) {
       return (
-        <button style={{
-          backgroundColor: "tomato",
-          color: "white",
-          padding: "10px 20px",
-          border: 0,
-          borderRadius: 10,
-          fontSize: bool ? 20 : 14,
-        }}>
+        <button
+          onClick={changeValue}
+          style={{
+            backgroundColor: "tomato",
+            color: "white",
+            padding: "10px 20px",
+            border: 0,
+            borderRadius: 10,
+          }}>
           {btnName}
         </button>
       )
     }
+    const MemorizedBtn = React.memo(Btn)
 
     function App() {
+      const [value, setValue] = React.useState("Save Changes");
+      const changeValue = () => setValue("Revert Changes");
       return (
         <div>
-          <Btn btnName="Save Changes" bool={true} />
-          <Btn btnName="Countinue" bool={false} />
+          <MemorizedBtn btnName={value} changeValue={changeValue} />
+          <MemorizedBtn btnName="Countinue" />
         </div>
       );
     };
