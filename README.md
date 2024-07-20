@@ -11,6 +11,7 @@
 ## Categories
 
 - [Arrays (JavaScript)](<(https://github.com/hy0ni/TI#Arrays)>)
+- [Object (JavaScript)](<(https://github.com/hy0ni/TI#Object)>)
 - [JavaScript](https://github.com/hy0ni/TIL#JavaScript)
 - [HTML](https://github.com/hy0ni/TIL#HTML)
 - [jQuery](https://github.com/hy0ni/TIL#jQuery)
@@ -20,7 +21,13 @@
 ### Arrays (JavaScript)
 
 - [Array(배열)(1)](./Arrays/array01.md)
+- [Array(배열)(2)](./Arrays/array02.md)
 - [Array 예제풀기](./Arrays/array-ex.md)
+
+### [Object (JavaScript)
+
+- [Object(객체)(1)](./Object/object01.md)
+- [Object(객체)(2)](./Object/object02.md)
 
 ### JavaScript
 
