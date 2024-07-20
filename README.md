@@ -20,6 +20,7 @@
 ### Arrays (JavaScript)
 
 - [Array(배열)(1)](./Arrays/array01.md)
+- [Array 예제풀기](./Arrays/array-ex.md)
 
 ### JavaScript
 
