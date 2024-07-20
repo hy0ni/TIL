@@ -10,11 +10,16 @@
 
 ## Categories
 
+- [Arrays (JavaScript)](<(https://github.com/hy0ni/TI#Arrays)>)
 - [JavaScript](https://github.com/hy0ni/TIL#JavaScript)
 - [HTML](https://github.com/hy0ni/TIL#HTML)
 - [jQuery](https://github.com/hy0ni/TIL#jQuery)
 
 ---
+
+### Arrays (JavaScript)
+
+- [Array(배열)(1)](./Arrays/array01.md)
 
 ### JavaScript
 
