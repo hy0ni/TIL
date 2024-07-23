@@ -10,8 +10,9 @@
 
 ## Categories
 
-- [Arrays (JavaScript)](<(https://github.com/hy0ni/TI#Arrays)>)
-- [Object (JavaScript)](<(https://github.com/hy0ni/TI#Object)>)
+- [Arrays (JavaScript)]((https://github.com/hy0ni/TIL#Arrays))
+- [Object (JavaScript)]((https://github.com/hy0ni/TIL#Object))
+- [조건문(conditional)](https://github.com/hy0ni/TIL#conditional)
 - [JavaScript](https://github.com/hy0ni/TIL#JavaScript)
 - [HTML](https://github.com/hy0ni/TIL#HTML)
 - [jQuery](https://github.com/hy0ni/TIL#jQuery)
@@ -24,11 +25,15 @@
 - [Array(배열)(2)](./Arrays/array02.md)
 - [Array 예제풀기](./Arrays/array-ex.md)
 
-### [Object (JavaScript)
+### Object (JavaScript)
 
 - [Object(객체)(1)](./Object/object01.md)
 - [Object(객체)(2)](./Object/object02.md)
 - [Object(객체)(3)](./Object/object03.md)
+
+### 조건문(conditional)
+
+- [if문, 비교 연산자, 논리 연산자](./conditional/if.md)
 
 ### JavaScript
 
