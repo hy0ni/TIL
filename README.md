@@ -34,6 +34,7 @@
 ### 조건문(conditional)
 
 - [if문, 비교 연산자, 논리 연산자](./conditional/if.md)
+- [switch문, if문과 switch문 차이점](./conditional/switch.md)
 
 ### JavaScript
 
